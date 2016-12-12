@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IpE-w1-zSm" customClass="TitleTableView">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IpE-w1-zSm" customClass="TitleTableView">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="2mm-8O-qto"/>
@@ -44,7 +44,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="m3P-we-PGA" secondAttribute="bottom" id="dgp-oG-oPo"/>
                             <constraint firstItem="IpE-w1-zSm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qIz-rb-2Fc"/>
                             <constraint firstItem="m3P-we-PGA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qQY-mU-Y3v"/>
-                            <constraint firstItem="IpE-w1-zSm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-64" id="tCU-uM-Oa3"/>
+                            <constraint firstItem="IpE-w1-zSm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="tCU-uM-Oa3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="wMk-tS-7Kt"/>
