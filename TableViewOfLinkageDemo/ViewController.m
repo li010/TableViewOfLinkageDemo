@@ -7,13 +7,11 @@
 //
 
 #import "ViewController.h"
-#import "TitleTableView.h"
-#import "DetailTableView.h"
 
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
-@property (weak, nonatomic) IBOutlet TitleTableView *titleTableView;
-@property (weak, nonatomic) IBOutlet DetailTableView *detailTableView;  //关联的二级tableView
+@property (weak, nonatomic) IBOutlet UITableView *titleTableView;
+@property (weak, nonatomic) IBOutlet UITableView *detailTableView;  //关联的二级tableView
 
 
 @property (nonatomic ,strong) NSMutableArray *titleDataSource;

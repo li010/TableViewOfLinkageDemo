@@ -15,8 +15,6 @@
 		4E2987B61DFE51D4000F3261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2987B41DFE51D4000F3261 /* LaunchScreen.storyboard */; };
 		4E2987C11DFE51D5000F3261 /* TableViewOfLinkageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2987C01DFE51D5000F3261 /* TableViewOfLinkageDemoTests.m */; };
 		4E2987CC1DFE51D5000F3261 /* TableViewOfLinkageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2987CB1DFE51D5000F3261 /* TableViewOfLinkageDemoUITests.m */; };
-		4E2987E11DFE7769000F3261 /* TitleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2987E01DFE7769000F3261 /* TitleTableView.m */; };
-		4E2987E41DFE777E000F3261 /* DetailTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2987E31DFE777E000F3261 /* DetailTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +51,6 @@
 		4E2987C71DFE51D5000F3261 /* TableViewOfLinkageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewOfLinkageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2987CB1DFE51D5000F3261 /* TableViewOfLinkageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewOfLinkageDemoUITests.m; sourceTree = "<group>"; };
 		4E2987CD1DFE51D5000F3261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E2987DF1DFE7769000F3261 /* TitleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleTableView.h; sourceTree = "<group>"; };
-		4E2987E01DFE7769000F3261 /* TitleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleTableView.m; sourceTree = "<group>"; };
-		4E2987E21DFE777E000F3261 /* DetailTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableView.h; sourceTree = "<group>"; };
-		4E2987E31DFE777E000F3261 /* DetailTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +105,6 @@
 				4E2987AA1DFE51D4000F3261 /* AppDelegate.m */,
 				4E2987AC1DFE51D4000F3261 /* ViewController.h */,
 				4E2987AD1DFE51D4000F3261 /* ViewController.m */,
-				4E2987DF1DFE7769000F3261 /* TitleTableView.h */,
-				4E2987E01DFE7769000F3261 /* TitleTableView.m */,
-				4E2987E21DFE777E000F3261 /* DetailTableView.h */,
-				4E2987E31DFE777E000F3261 /* DetailTableView.m */,
 				4E2987AF1DFE51D4000F3261 /* Main.storyboard */,
 				4E2987B21DFE51D4000F3261 /* Assets.xcassets */,
 				4E2987B41DFE51D4000F3261 /* LaunchScreen.storyboard */,
@@ -286,8 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E2987E41DFE777E000F3261 /* DetailTableView.m in Sources */,
-				4E2987E11DFE7769000F3261 /* TitleTableView.m in Sources */,
 				4E2987AE1DFE51D4000F3261 /* ViewController.m in Sources */,
 				4E2987AB1DFE51D4000F3261 /* AppDelegate.m in Sources */,
 				4E2987A81DFE51D4000F3261 /* main.m in Sources */,
@@ -526,6 +514,7 @@
 				4E2987D21DFE51D5000F3261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E2987D31DFE51D5000F3261 /* Build configuration list for PBXNativeTarget "TableViewOfLinkageDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +523,7 @@
 				4E2987D51DFE51D5000F3261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E2987D61DFE51D5000F3261 /* Build configuration list for PBXNativeTarget "TableViewOfLinkageDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +532,7 @@
 				4E2987D81DFE51D5000F3261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
